@@ -5,7 +5,6 @@ void setFGcolor(int color) {
 	fflush(stdout);
 }
 
-
 void clearScreen(void) {
 	printf("\x1B[2J");
 	fflush(stdout);
