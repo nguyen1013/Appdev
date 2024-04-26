@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
+#include "screen.h"
 
 int main() {
 	int rows;
@@ -8,6 +8,5 @@ int main() {
 	printf("Enter the number of rows of Pascal Triangle: ");
 	scanf_s("%d", &rows);
 	pascal_triangle(rows);
-
 
 }
