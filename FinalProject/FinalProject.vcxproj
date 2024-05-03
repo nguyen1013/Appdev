@@ -136,13 +136,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="appdev.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\temp\appdev.html" />
+    <None Include="..\..\..\temp\echo.php" />
     <None Include="U:\public_html\appdev.html" />
     <None Include="U:\public_html\echo.php" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\..\..\temp\mydata.txt" />
     <Text Include="U:\public_html\mydata.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FinalProject.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

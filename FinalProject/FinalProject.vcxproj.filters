@@ -26,6 +26,9 @@
     <ClInclude Include="appdev.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="U:\public_html\appdev.html">
@@ -34,10 +37,18 @@
     <None Include="U:\public_html\echo.php">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\..\..\temp\appdev.html" />
+    <None Include="..\..\..\temp\echo.php" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="U:\public_html\mydata.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="..\..\..\temp\mydata.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FinalProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
