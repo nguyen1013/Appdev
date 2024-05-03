@@ -17,7 +17,7 @@ int main(void)
     curl = curl_easy_init();
     if (curl) {
 
-        curl_easy_setopt(curl, CURLOPT_URL, "http://www.cc.puv.fi/~e2301514/echo.php");
+        curl_easy_setopt(curl, CURLOPT_URL, "http://www.cc.puv.fi/~e2301514/appdev.php");
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, poststring);
 
         res = curl_easy_perform(curl);

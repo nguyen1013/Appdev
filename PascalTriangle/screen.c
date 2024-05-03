@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "screen.h"
 
 void setFGcolor(int color) {
 	printf("\x1B[%dm", color);
@@ -17,5 +18,10 @@ void gotoXY(int row, int col) {
 
 void resetColors(void) {
 	printf("\x1B[0m");
+	fflush(stdout);
+}
+
+void setBGcolor(int color) {
+	printf("\x1b[%dm", color + 10);
 	fflush(stdout);
 }
