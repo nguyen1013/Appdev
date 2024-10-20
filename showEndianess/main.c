@@ -13,7 +13,7 @@ int main(void)
 	union myUnion m;
 	m.x = 0x0000000D;
 	printf("%d\n", 0123);//83
-	printf("%d\n", 0b1010010);//83
+	printf("%d\n", 0b1010011);//83
 	printf("%d\n", 0x53);//83
 	printf("%d\n", 'S');//83
 	printf("%d\n", m.x);
